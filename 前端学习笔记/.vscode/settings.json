@@ -1,0 +1,53 @@
+{
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.tabSize": 2,
+  "editor.lineHeight": 24,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.fontFamily": "Menlo",
+  "editor.fontSize": 15,
+  "editor.cursorBlinking": "smooth",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+  ],
+  "files.autoSave": "onFocusChange",
+  "files.associations": {
+    ".cjson": "jsonc",
+    ".wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "wxml": "html",
+    "javascript": "javascriptreact",
+  },
+  "miniapp-vscode.disableAutoConfig": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.startupEditor": "newUntitledFile",
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true,
+  },
+  "eslint.autoFixOnSave": true,
+  "window.zoomLevel": 0,
+  "editor.formatOnSave": true
+}
